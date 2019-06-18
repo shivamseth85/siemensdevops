@@ -18,6 +18,15 @@
 		<java.version>1.8</java.version>
 	</properties>
 	
+	<!--this section is for hosting -->
+	<distributionManagement>
+		<repository>
+				<id>hosted</id>
+				<url>http://localhost:8081/repository/siemenshosted/</url>
+		</repository>
+	</distributionManagement>
+	
+	<!-- This is for downloading -->
 	<repositories>
 		<repository>
 			<id>siemensintrarepot</id>
